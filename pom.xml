@@ -37,6 +37,6 @@
         <version>3.2.3</version>
       </plugin>
     </plugins>
-    <finalName>RegForm</finalName>
+    <finalName>RegistrationForm</finalName>
   </build>
 </project>
