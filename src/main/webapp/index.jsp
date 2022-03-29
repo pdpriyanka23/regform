@@ -22,7 +22,7 @@ cellspacing="2">
 </tr>
 
 <tr>
-<td>Full Name</td>
+<td>Name</td>
 <td><input type=text name=textnames id="textname" size="30"></td>
 </tr>
 
