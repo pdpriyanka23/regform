@@ -1,28 +1,28 @@
 apiVersion: apps/v1
-kind: Deployment
-
+kind : Deployment
 metadata:
-  name: workshop
+  name: mydep
   labels:
-    app: workshop
-
+    app: mydep
 spec:
   selector:
     matchLabels:
-      app: workshop
+      app: mydep
 
   template:
-
     metadata:
       labels:
-        app: workshop
+        app: mydep
 
     spec:
-
       containers:
-      - name: mytom
-        image: vani1996/myimg:latest
+      - name: mywebsite
+        image: ssr123/myswebsite
         ports:
-        - containerPort: 8080
+        - containerPort: 80
+      - name: mytom
+        image: ssr123/mytom:1.0
+        ports:
+        - containerPort: 8080 
 
   replicas: 10
